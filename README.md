@@ -1,5 +1,7 @@
 # haskell-tour
 
+![example workflow](https://github.com/shilgam/haskell-tour/actions/workflows/ci.yml/badge.svg)
+
 ## Prerequisites
 
 - [Haskell](https://www.haskell.org/downloads/)
@@ -19,13 +21,17 @@
 
         $ stack ghci
 
-1. Test function with different arguments. Examples:
+1. Test function with different arguments. See examples:
 
         > isPalindrome "rotor"
         True
 
         > isPalindrome "robot"
         False
+
+        > :q
+        Leaving GHCi.
+        $
 
 ### Run the test suite
 
