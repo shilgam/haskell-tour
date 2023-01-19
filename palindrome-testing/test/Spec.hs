@@ -12,5 +12,5 @@ main = do
     putStrLn "Running tests..."
     assert (isPalindrome "racecar") "passed: 'racecar'"
                                     "failed: 'racecar'"
-    assert (isPalindrome "racecar!") "failed: 'racecar!'"
-                                     "passed: 'racecar!'"
+    assert (isPalindrome "abc") "failed: 'abc'"
+                                "passed: 'abc'"
